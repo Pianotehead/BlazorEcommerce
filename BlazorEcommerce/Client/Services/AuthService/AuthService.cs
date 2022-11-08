@@ -11,7 +11,6 @@ namespace BlazorEcommerce.Client.Services.AuthService
         {
             _http = http;
             _authStateProvider = authStateProvider;
-            _authStateProvider = authStateProvider;
         }
 
         public async Task<ServiceResponse<bool>> ChangePassword(UserChangePassword request)
